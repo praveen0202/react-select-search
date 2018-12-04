@@ -710,7 +710,7 @@ function (_React$Component) {
           className: this.classes.search,
           type: "search",
           value: this.state.search,
-          onChange: this.onChange,
+          onChange: this.props.onChange,
           placeholder: this.props.placeholder
         });
       } else {
