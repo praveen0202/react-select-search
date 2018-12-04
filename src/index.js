@@ -624,7 +624,7 @@ class SelectSearch extends React.Component {
         if (this.props.search) {
             const name = null;
 
-            searchField = <input name={name} ref={this.search} onFocus={this.onFocus} onKeyPress={this.onKeyPress} className={this.classes.search} type="search" value={this.state.search} onChange={this.onChange} placeholder={this.props.placeholder} />;
+            searchField = <input name={name} ref={this.search} onFocus={this.onFocus} onKeyPress={this.onKeyPress} className={this.classes.search} type="search" value={this.state.search} onChange={this.props.onChange} placeholder={this.props.placeholder} />;
         } else {
             let option;
             let labelValue;
